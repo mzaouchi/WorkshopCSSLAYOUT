@@ -1,0 +1,130 @@
+/* header background rgba(255, 255, 255, 0.9)  footer background #e8e8e6;; #363945; #5b6b7f;
+grey #484551;
+blue :#4fa3db;*/
+.navmenu{
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+}
+header{
+    position: sticky;
+    top: 0;
+    background-color: rgba(255, 255, 255, 0.9) ;
+}
+.logo-css{
+    width: 78px;
+    height: 78px;
+    margin-left: 32px;
+}
+
+.nav-links{
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-links a{
+    font-size: 28px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #4fa3db;
+    
+}
+
+
+.nav-links li {
+    list-style: none;
+}
+
+.about-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.about-section div{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1{
+    font-size: 34px;
+}
+
+.css-span{
+    color: #4fa3db;
+}
+
+.watchvideo-btn{
+    width: 173px;
+    font-weight: bold;
+    color: #4fa3db;
+    background-color: aliceblue;
+    font-size: 22px;
+    border-radius: 16px;
+    height: 42px;
+}
+
+.watchvideo-btn:hover{
+    color: aliceblue;
+    background-color:   #4fa3db;
+}
+
+.projects-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.project{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h3{
+    font-size: 26px;
+}
+
+.project p{
+    line-height: 30px;
+    font-size: 19px;
+    text-align: justify;
+}
+
+.project a{
+    color: #4fa3db;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 20px;
+
+}
+
+footer div{
+    display: flex;
+    justify-content: center;
+}
+
+.footer-message{
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.footer-message a{
+    color: #4fa3db;
+    text-decoration: none;
+}
+
+section{
+    margin-top: 20px;
+}
+
+@media (min-width: 576px) and (max-width: 768px) { 
+    body{
+        background-color: yellow;
+    }
+ } 
